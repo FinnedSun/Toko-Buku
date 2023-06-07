@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+        font-family: 'peque';
+        src: url('font/peque script Demo.otf');
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <nav>
+            <h2 class="title">GRAMEDIA.</h2>
+            <ul>
+                <li><a href="#branda">Home</a></li>
+                <li><a href="#favorit">Favorit</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#hubungi">Hubungi</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper" id="branda">
+            <div class="taki bg-transparent">
+                <img class="foto2 fload-start bg-transparent" src="img/taki edit2.png" alt="" style="width: 50%; height: 100vh; object-fit: cover; object-position: 0% 0px;" >
+                <span class="deskripsi text-sm-end bg-transparent">
+                    <h2 class="text-center bg-transparent">Taki Tachibana</h2>
+                    <p class="text-break">Seorang pemuda SMA yang tinggal di Tokyo yang bekerja paruh waktu di restoran italia dan menykai senior dari rekan kerjanya, merasa bermimpi dirinya menjadi seorang gadis SMA yang tinggal di sebuah desa yang dikelilingi Pergununan</p>
+                </span>
+            </div>
+            <div class="gradient">
+                <span></span>
+            </div>
+            <div class="mitsuha">
+                <img class="foto fload-end" src="img/mitsuha.png" alt="" style="width: 50%; height: 100vh; object-fit: cover; object-position: right 10%; float:right;display:block; " >
+                <div class="deskripsi2">
+                    <h2 class="titles">Mitsuha Miyamizu</h2>
+                    <p>Seorang gadis SMA yang tinggal di sebuah desa di pegununan, bermimpi dia menjadi seorang anak laki-laki. dia bangun di sebuah kamar yang asing, berteman dengan orang asing. melihat kota Tokyo tepat di depannya</p>
+                </div>
+            </div>
+            <div class="gradient" id="favorit">
+                <span>
+                    <h2>Favorit</h2>
+                </span>
+            </div>
+            <div class="cards">
+                <div class="cta" >
+                   <img src="img/S Your Name'.jpg" alt="" style="width: 100%; height: 110%;" >
+                   <div class="text">
+                      <h2 class="titles">Your Name</h2>
+                      <p class="top">seorang siswa SMA di Tokyo, dan Mitsuha Miyamizu, seorang gadis desa di Jepang. Melalui serangkaian mimpi aneh, mereka menyadari bahwa mereka secara fisik bertukar tempat saat mereka tertidur. </p>
+                   </div>
+                </div>
+                <div class="cta">
+                   <img src="img/Weathering With You 2.png" alt="" style="width: 100%; height: 110%;">
+                   <div class="text" >
+                      <h2>Weathering With You</h2>
+                      <p>Dua orang remaja pindahan ke Tokyo, yang bertemu dengan Hina Amano, seorang "Dewi Cuaca" yang memiliki kemampuan mengendalikan cuaca. Mereka berdua bekerja bersama untuk membawa kembali matahari di tengah hujan yang tak henti-hentinya Bisakah mereka menghetikannya.</p>
+                   </div>
+                </div>
+                <div class="cta">
+                   <img src="img/ANOTHERjpg.jpg" alt="" style="width: 100%; height: 110%;">
+                   <div class="text">
+                      <h2>ANOTHER</h2>
+                      <p>Seorang siswa baru bernama Kouichi Sakakibara, terlibat dalam kutukan yang menghantui kelasnya. Di tengah lingkungan yang penuh dengan kejanggalan dan aura kelam, Kouichi bertemu dengan Mei Misaki, dianggap sebagai "mayat hidup" oleh teman-teman sekelasnya. </p>
+                   </div>
+                </div>
+                <div class="cta">
+                   <img src="img/ferris wheel at night.png" alt="" style="width: 100%; height: 110%;">
+                   <div class="text">
+                      <h2>ferris wheel at night</h2>
+                      <p>Cerita ini mengikuti perjalanan Emi, Ketika Emi bertemu dengan seorang pria misterius bernama Kazuki, mereka terlibat dalam pertemuan tak terduga yang membawa mereka pada petualangan emosional yang melibatkan kehilangan, harapan, dan pemahaman diri. </p>
+                   </div>
+                </div>
+            </div>
+            <div class="gradient" id="order">
+                <span>
+                    <h2>Order</h2>
+                </span>
+            </div>
+            <div class="order">
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/S Your Name'.jpg" alt="your name" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>Your Name</h3>
+                      <h2 class="price" onclick="beli()">73.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/Weathering With You 2.png" alt="Weathering With You" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>Weathering With You</h3>
+                      <h2 class="price" onclick="beli()">74.<small>900</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/ANOTHERjpg.jpg" alt="ANOTHER" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>ANOTHER</h3>
+                      <h2 class="price" onclick="beli()">85.<small>405</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/ferris wheel at night.png" alt="ferris wheel at night" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>ferris wheel at night</h3>
+                      <h2 class="price" onclick="beli()">75.<small>725</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/HYOUKA.jpg" alt="Confessions" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>HYOUKA</h3>
+                      <h2 class="price" onclick="beli()">66.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/I WANT TO EAT YOUR PANCREAS.jpg" alt="I WANT TO EAT YOUR PANCREAS" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>I WANT TO EAT YOUR PANCREAS</h3>
+                      <h2 class="price" onclick="beli()">73.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/THE DEATH RETURN.jpg" alt="THE DEATH RETURN" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>THE DEATH RETURN</h3>
+                      <h2 class="price" onclick="beli()">70.<small>700</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/GIRLS.jpg" alt="GIRLS" class="book">
+                    </div>
+                    <div class="contentBox">
+                      <h3>GIRLS</h3>
+                      <h2 class="price" onclick="beli()">87.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="gradient" id="hubungi">
+              <span>
+                  <h2>Hubungi</h2>
+              </span>
+            </div>
+            <div class="hubungi">
+              <div class="lokasi">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.1858992319658!2d100.35394362008122!3d-0.9440404074782772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b93430bd2e73%3A0x3ff3fc1a2cbdf1!2sGramedia%20Padang!5e0!3m2!1sid!2sid!4v1684995513201!5m2!1sid!2sid" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="beli" id="beli">
+                <h1 class="title-beli">Beli Buku</h1>
+                <div class="input-group">
+                  <div class="input-nama">
+                    <input type="text" class="input" placeholder=" ">
+                    <label class="placeholder">Nama Anda</label>
+                  </div>
+                  <div class="input-judul">
+                    <input list="judulbuku" name="judul" id="judul" class="input" placeholder=" ">
+                    <label class="placeholder">Judul Buku</label>
+                    <datalist id="judulbuku">
+                      <option value="Your Name">
+                      <option value="Weathering With You">
+                      <option value="ANOTHER">
+                      <option value="ferris wheel at night">
+                      <option value="Confessions">
+                      <option value="I Want To Eat Your Pancreas">
+                      <option value="The Death Return">
+                      <option value="GIRLS">
+                    </datalist>
+                  </div>
+                  <div class="input-email">
+                    <input type="email" class="input" placeholder=" ">
+                    <label class="placeholder">Email Anda</label>
+                  </div>
+                  <div class="input-tel">
+                    <input type="tel" class="input" placeholder=" ">
+                    <label class="placeholder">No Telephone</label>
+                  </div>
+                  <div class="input-number">
+                    <input type="number" class="input" placeholder=" ">
+                    <label class="placeholder">Jumlah Buku</label>
+                  </div>
+                </div>
+                <button class="button-beli">Beli</button>
+              </div>
+              <div class="medsos">
+                <div class="kartu text-center" onclick="Instagram()">
+                  <h1  class="media">Instagram</h1>
+                  <i class="fa-brands fa-instagram icons"></i>
+                  <p class="nama">gramedia</p>
+                </div>
+                <div class="kartu text-center" onclick="Tokopedia()">
+                  <h1  class="media">Tokopedia</h1>
+                  <i class="fa-solid fa-store icons"></i>
+                  <p class="nama">Gramedia Official Store</p>
+                </div>
+                <div class="kartu text-center" onclick="Facebook()">
+                  <h1  class="media">Facebook</h1>
+                  <i class="fa-brands fa-facebook icons"></i>
+                  <p class="nama">Gramedia Books</p>
+                </div>
+                <div class="kartu text-center" onclick="Twitter()">
+                  <h1  class="media">Twitter</h1>
+                  <i class="fa-brands fa-twitter icons"></i>
+                  <p class="nama">Gramedia</p>
+                </div>
+              </div>
+            </div>
+            <footer id="footer">
+                <div class="copyright pull-left">&copy; 2023 <strong>PT. Gramedia Asri Media</strong></div>
+            </footer>
+            <script src="main.js"></script>
+            <script>
+              function beli() {
+                window.location.href = "#beli"
+              }
+              function Instagram() {
+                window.location.href = "https://www.instagram.com/gramedia/"
+              }
+              function Tokopedia() {
+                window.location.href = "https://www.tokopedia.com/gramedia-store"
+              }
+              function Twitter() {
+                window.location.href = "https://www.facebook.com/gramediastore"
+              }
+            </script>
+        </div>
+
+    </div>
+    <footer></footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

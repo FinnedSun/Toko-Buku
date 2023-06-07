@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style_log.css">
+    <meta name="viewprot">
+</head>
+<body>
+<form onsubmit="return false">
+    <div class="from-item">
+        <label>Username</label>
+        <div class="input-wrapper">
+            <input type="text" id="username" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true"/>
+        </div>
+    </div>
+    <div class="from-item">
+        <label>Password</label>
+        <div class="input-wrapper">
+            <input type="password" id="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true"/>
+            <button type="button" id="eyeball">
+                <div class="eye"></div>
+            </button>
+            <div id="beam"></div>
+        </div>
+        <button id="submit" onclick="login()">Sign in</button>
+    </div>
+</form>
+    <script src="js/main.js"></script>
+</body>
+</html>
